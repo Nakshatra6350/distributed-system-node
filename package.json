@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "fastify": "3.2",
+    "fastify-gql": "5.3",
+    "node-fetch": "2.6"
+  }
+}
