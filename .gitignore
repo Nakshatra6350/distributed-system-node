@@ -5,6 +5,9 @@ node_modules/
 .env
 .env.*
 
+# Private keys
+*.key
+
 # Logs
 *.log
 npm-debug.log*
