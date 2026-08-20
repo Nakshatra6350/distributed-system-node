@@ -5,11 +5,13 @@ const server = require('fastify')();
 const HOST = process.env.HOST || '127.0.0.1';
 const PORT = process.env.PORT || 4000;
 
-console.log(`worker pid=${process.pid}`);
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 
 server.get('/:limit', async (req, reply) => {
-    console.log(`request ${req.params.limit} handled by ${process.pid}`);
-
+    await sleep(10);
     return String(fibonacci(Number(req.params.limit)));
 });
 
