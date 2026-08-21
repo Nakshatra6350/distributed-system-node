@@ -2,6 +2,10 @@
   "dependencies": {
     "fastify": "3.2",
     "fastify-gql": "5.3",
+    "middie": "5.1",
     "node-fetch": "2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
