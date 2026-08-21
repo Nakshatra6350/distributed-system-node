@@ -2,8 +2,10 @@
   "dependencies": {
     "fastify": "3.2",
     "fastify-gql": "5.3",
+    "ioredis": "4.17",
     "middie": "5.1",
     "node-fetch": "2.6",
+    "pg": "8.3",
     "statsd-client": "^0.4.4",
     "zipkin-lite": "^0.1.1"
   },
