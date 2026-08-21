@@ -16,6 +16,7 @@
     "fastify-gql": "5.3",
     "middie": "5.1",
     "node-fetch": "2.6",
-    "statsd-client": "^0.4.4"
+    "statsd-client": "^0.4.4",
+    "zipkin-lite": "^0.1.1"
   }
 }
