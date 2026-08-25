@@ -7,7 +7,7 @@
     "memjs": "1.2",
     "middie": "5.1",
     "node-fetch": "2.6",
-    "pg": "8.3",
+    "pg": "8.2",
     "statsd-client": "^0.4.4",
     "zipkin-lite": "^0.1.1"
   },
